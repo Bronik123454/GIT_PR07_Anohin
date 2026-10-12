@@ -26,5 +26,12 @@ namespace Anohin_PR07_GIT
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            AdminForm adminForm = new AdminForm();
+            adminForm.Show();
+            this.Hide();
+        }
     }
 }
